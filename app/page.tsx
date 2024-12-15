@@ -1,8 +1,12 @@
-import ModeToggle from "@/components/ModeToggle";
+import FetchData from "@/components/FetchData";
 import React from "react";
 
 const Home = () => {
-  return <ModeToggle />;
+  return (
+    <div>
+      <FetchData />
+    </div>
+  );
 };
 
 export default Home;
